@@ -1,0 +1,172 @@
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  
+
+.contact-field {
+  width:90% !important;
+  padding:1% !important;
+  margin-top:1% !important;
+  margin-bottom:1% !important;
+  color: black   !important;
+  border:0 !important;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.07) !important;
+  border-radius:10px !important;
+}
+
+.contact-form{
+	width:90% !important;
+  min-width: 900px !important;
+	overflow: hidden !important;
+	margin-top:1% !important;
+	padding-top:1% !important;
+	padding-left:1% !important;
+	padding-right:1% !important;
+	padding-bottom:2% !important;
+	left: 4% !important;
+	right: 4% !important;
+	position: relative !important;
+	border-radius: 10px !important;
+	box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4) !important;
+	align-items: center !important;
+    justify-content: center !important;
+	text-align: center !important;
+}
+
+.contact-textarea {
+  width:90%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:120px;
+}
+
+.contact-label{
+
+	left: 4%;
+	right: 4%;
+	float:left;
+}
+
+#left{
+	width: 50%;
+	float:left;
+}
+
+#right{
+	width: 50%;
+	float:right;
+}
+
+.submit-form{
+  margin-left:auto !important;
+  padding:0px !important;
+  height:50px !important;
+  width:140px !important;
+  border:none !important;
+  background:#2B2D2F !important;
+  border-radius:5px !important;
+  color:#71DFBE !important;
+  font-size:1.7em !important;
+  font-weight:500 !important;
+  overflow:hidden !important;
+  justify-content:center !important;
+  align-items:center !important;
+}
+.submit-form:hover{
+  width:150px !important;
+  background:#71DFBE !important;
+  color:#2B2D2F !important;
+}
+
+.contact-field-required:after {
+    content:"*";
+    color: red;
+	display: inline-block;
+    vertical-align: top;
+  }
+  
+  .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  
+  
+.container {
+    min-width: 992px !important; }
+	
+ 
+.table-wrap {
+  overflow-x: scroll;
+  margin:2%;
+  border-radius: 10px;
+	box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4);
+  }
+
+.table {
+  min-width: 900px !important;
+  width: 100%;
+  background: #fff; }
+  
+  .table thead.thead-primary {
+    background: #71DFBE !important; }
+  .table thead th {
+    border: none;
+    padding: 20px 30px;
+    font-size: 14px;
+     }
+  .table tbody tr {
+    margin-bottom: 10px; }
+  .table tbody th, .table tbody td {
+    border: none;
+    padding: 20px 30px;
+    border-bottom: 3px solid #f8f9fd;
+    font-size: 14px; }
+	
+	
+.modal310 {
+  display: none;
+  position: fixed; 
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  position: relative; 
+  background-color: white;
+  padding: 20px; 
+  margin: auto; 
+  width: 75%;  
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.close-btn310 {
+  float: right; 
+  color: lightgray; 
+  font-size: 24px;  
+  font-weight: bold;
+}
+.close-btn310:hover {
+  color: darkgray;
+}
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}

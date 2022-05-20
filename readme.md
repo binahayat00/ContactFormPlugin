@@ -9,7 +9,7 @@ Your contact requests will be saved on the database so that you can manage them 
 ## Requirements:
 - PHP8
 - WP5.8
-- Mysql 8
+- MySQL 8
 
 ## How to Build:
 It's so easy to build.
@@ -21,4 +21,5 @@ Your uploaded file will save in the upload folder.
 ## How to use:
 You can use it after building, a first name, last name, email, and comment are required input.
 You can see all your contact requests on the Admin page.
+
 

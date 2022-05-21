@@ -3,8 +3,7 @@
 # The WordPress Contact Form Plugin
 ## Descriptions:
 The WordPress contact form plugin is to add your WordPress websites and pages.
-Your contact requests will be saved on the database so that you can manage them with the admin page.
-
+Your contact requests will be saved on the database and it doesn't send an Email so that you can manage them with the admin page.
 
 ## Requirements:
 - PHP8
